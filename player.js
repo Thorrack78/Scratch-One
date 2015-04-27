@@ -8,7 +8,7 @@ var Player = function() {
 	this.velocityY= 0;
 	this.angularVelocity= 0;
 	this.rotation= 0;
-	this.image.src= "hero.png";
+	this.image.src= "assets/hero.png";
 };
 
 Player.prototype.update = function(deltaTime)

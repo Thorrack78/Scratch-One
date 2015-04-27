@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="20" tilewidth="35" tileheight="35" nextobjectid="1">
+ <tileset firstgid="1" name="Platformer Tile Set (Base)" tilewidth="70" tileheight="70" spacing="2" margin="2">
+  <image source="../Sprite Sheets/Platformer Art Complete Pack_0/Base pack/Tiles/tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <layer name="Layer 1 - Ground" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DoAqmBdsAoQAHCFOrXpIor6AdqCfBJBdROz41QOgYHnUmk/hIc9HAHlKZnQsCUxuYTC2pJpAcK4EqPhNIxseaRa84owA6ILc9oXY/r0dj8oQKILc9oVe45QmkrGplPLqC0nMugkE4nQOOqv9FpXPq5iKSHC2ChkNYhQFNqDrH6Aa4mF7E=
+  </data>
+ </layer>
+ <layer name="Layer 2 - Ladders" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0TEKACAMA0AfIf7Wvzs7CS1Swbs9oSWtAZAxqw846MV5dvbIufX/CObs8VavPd7q/X0PiFh23QGE
+  </data>
+ </layer>
+</map>
