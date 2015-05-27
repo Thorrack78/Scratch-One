@@ -118,12 +118,9 @@ else if (this.velocity.y < 0) {
                         this.velocity.x = 0;
                 }
         }
-        player.falling = !(celldown || (nx&&celldiag));
+        //player.falling = !(celldown || (nx&&celldiag));
 }
- 
- 
- 
- 
+  
 Player.prototype.draw = function()
 {
         context.save();
