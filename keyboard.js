@@ -2,7 +2,7 @@ var Keyboard = function() {
 	var self = this;
 	
 	window.addEventListener('keydown', function(evt) { self.onkeyDown(evt); }, false);
-	window.addEventListener('keyup', function(evt) { self.onkeyUp(evt); }, false);
+	//window.addEventListener('keyup', function(evt) { self.onkeyUp(evt); }, false);
 	
 	this.keyListeners = new Array();
 	this.keys = new Array();
@@ -18,6 +18,7 @@ var Keyboard = function() {
 	this.KEY_S = 83;
 	this.KEY_W = 87;
 	this.KEY_SHIFT = 16;
+	
 };
 
 Keyboard.prototype.onkeyDown = function(evt)
